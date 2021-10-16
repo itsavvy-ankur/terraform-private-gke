@@ -18,8 +18,8 @@ module "project-factory" {
 
   name                 = "us-dev-iaas-gke"
   random_project_id    = true
-  org_id               = "77598684511"
-  billing_account      = "0159E4-888CC5-C3E41C"
+  org_id               = "<update_value>"
+  billing_account      = "<update_value>"
 
    activate_apis = [
     "compute.googleapis.com",
